@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <style>
+        @keyframes pulse {
+            0%, 100% {
+                transform: scaleY(1);
+            }
+            50% {
+                transform: scaleY(1.2);
+            }
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite ease-in-out;
+            transform-origin: center;
+        }
+    </style>
+    <g class="pulse-animation" mask="url(&quot;#SvgjsMask1381&quot;)" fill="none"><g transform="translate(-14.4, 0)" stroke-linecap="round">
+        <path d="M324 219.06 L324 340.94" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M368 247.59 L368 312.42" stroke-width="33" stroke="rgba(0, 0, 0, 1)"></path><path d="M412 145.14 L412 414.86" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M456 192.4 L456 367.6" stroke-width="33" stroke="rgba(0, 0, 0, 1)"></path><path d="M500 163.69 L500 396.31" stroke-width="33" stroke="rgba(0, 0, 0, 1)"></path><path d="M544 205.66 L544 354.35" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M588 141.9 L588 418.1" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M632 240.09 L632 319.9" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M676 197.22 L676 362.78" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M720 227.28 L720 332.72" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M764 137.62 L764 422.38" stroke-width="33" stroke="rgba(0, 0, 0, 1)"></path><path d="M808 159.72 L808 400.27" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M852 226.03 L852 333.98" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M896 230.81 L896 329.19" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M940 239.19 L940 320.81" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M984 211.22 L984 348.77" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M1028 237.91 L1028 322.09" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path><path d="M1072 242.64 L1072 317.36" stroke-width="33" stroke="rgba(0, 0, 0, 1)"></path><path d="M1116 231.63 L1116 328.38" stroke-width="33" stroke="rgba(255, 105, 180, 1)"></path>
+    </g></g>
+    <defs>
+        <mask id="SvgjsMask1381">
+            <rect width="1440" height="560" fill="#ffffff"></rect>
+        </mask>
+    </defs>
+</svg>
