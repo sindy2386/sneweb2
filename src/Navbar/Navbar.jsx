@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import { spLogo } from '../images/ImgAssets'
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -12,8 +13,8 @@ const Navbar = () => {
       {/* Fullscreen Modal */}
       <div
         className={`fixed inset-0 z-40 flex justify-center items-start bg-black transition-opacity duration-300 ${
-          isSidebarOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        } bg-black bg-opacity-80`}
+          isSidebarOpen ? 'opacity-100 ' : 'opacity-0 pointer-events-none '
+        } bg-black bg-opacity-95`}
       >
         <div className="relative flex flex-col flex-1 max-w-screen mx-auto z-50">
           {/* Close button inside the modal */}
@@ -25,15 +26,15 @@ const Navbar = () => {
 
           <div className="flex items-center justify-center flex-shrink-0 p-4 mt-4">
             <a href="#" className="text-white">
-              {/* <img className="h-20 w-20" src={MyLogoone} alt="Logo"/> */}
+              <img className="w-24 h-24" src={spLogo} alt="Logo"/>
             </a>
           </div>
-          <nav className="flex flex-col font-customTwo items-center p-24">
-            <Link to="/" className="py-4 text-8xl  hover:text-rose-800 text-white" onClick={() => setIsSidebarOpen(false)}>Home</Link>
-            <Link to="/about" className="py-4 text-8xl hover:text-rose-800 text-white" onClick={() => setIsSidebarOpen(false)}>About</Link>
-            <Link to="/library" className="py-4 text-8xl hover:text-rose-800 text-white" onClick={() => setIsSidebarOpen(false)}>Library</Link>
-            <Link to="/bts" className="py-4 text-8xl hover:text-rose-800 text-white" onClick={() => setIsSidebarOpen(false)}>Behind-The-Scenes!</Link>
-            <Link to="/contact" className="py-4 text-8xl hover:text-rose-800 text-white" onClick={() => setIsSidebarOpen(false)}>Contact</Link>
+          <nav className="flex flex-col text-8xl font-customThree items-center pt-10">
+            <Link to="/" className="py-4 hover:text-rose-800 text-white no-underline" onClick={() => setIsSidebarOpen(false)}>Home</Link>
+            <Link to="/about" className="py-4 hover:text-rose-800 text-white no-underline" onClick={() => setIsSidebarOpen(false)}>About</Link>
+            <Link to="/library" className="py-4 hover:text-rose-800 text-white no-underline" onClick={() => setIsSidebarOpen(false)}>Library</Link>
+            <Link to="/bts" className="py-4 hover:text-rose-800 text-white no-underline" onClick={() => setIsSidebarOpen(false)}>Behind-The-Scenes!</Link>
+            <Link to="/contact" className="py-4 hover:text-rose-800 text-white no-underline" onClick={() => setIsSidebarOpen(false)}>Contact</Link>
           </nav>
         </div>
       </div>
