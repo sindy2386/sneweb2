@@ -9,6 +9,8 @@ module.exports = {
       fontFamily: {
         'customOne': ['YourCustomFontOne', 'honk'],
         'customTwo': ['YourCustomFontTwo', 'consolas'],
+        'customThree': ['YourCustomFontThree', 'feelingPassionate'],
+        'customFour': ['YourCustomFontFour', 'kiteOne']
       },
       colors: {
         pink: colors.pink,

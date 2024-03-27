@@ -25,6 +25,7 @@ import contactMe from '../images/contactMe.png'
 import contactMeTwo from '../images/contactMeTwo.png'
 import contactMeThree from '../images/contactMeThree.png'
 import landingImgOne from '../images/landingImgOne.png'
+import spLogo from '../images/spLogo.png'
 
 // SVG
 import svgWallpaper from '../images/svg/svgWallpaper.svg'
@@ -46,6 +47,10 @@ import timelineImageFour from '../images/timelineImgFour.png'
 import timelineImageFive from '../images/timelineImgFive.png'
 import timelineImageSix from '../images/timelineImgSix.png'
 import mernstackLogo from '../images/mernstackLogo.png'
+import timelineImageSeven from '../images/timelineImgSeven.png'
+import timelineImageEight from '../images/timelineImgEight.png'
+import timelineImageNine from '../images/timelineImgNine.png'
+import timelineImageTen from '../images/timelineImageTen.png'
 
 export {
     SP2,
@@ -76,6 +81,7 @@ export {
     contactMeThree,
     musicComposition,
     landingImgOne,
+    spLogo,
     
     // SVG
     svgMicrophone,
@@ -96,4 +102,8 @@ export {
     timelineImageFive,
     timelineImageSix,
     mernstackLogo,
+    timelineImageSeven,
+    timelineImageEight,
+    timelineImageNine,
+    timelineImageTen,
 }

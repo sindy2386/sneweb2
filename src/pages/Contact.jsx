@@ -43,7 +43,7 @@ const Contact = () => {
       </div>
 
       {/* Left Side Services Canvas */}
-      <div className="absolute left-0 top-0 bottom-0 w-1/3 flex font-customTwo items-center justify-center p-4">
+      <div className="absolute left-0 top-0 bottom-0 w-1/3 flex font-customFour items-center justify-center p-4">
         <div className="transform transition duration-500 hover:scale-105">
           <div className="bg-gradient-to-r from-red-600 to-red-700 bg-opacity-90 rounded-xl shadow-2xl p-8 text-white max-w-lg hover:bg-gradient-to-bl hover:from-red-700 hover:to-rose-500">
             <h3 className="text-2xl font-bold mb-8">Elevate Your Sound</h3>
@@ -92,19 +92,19 @@ const Contact = () => {
       
       {/* Contact Form Center */}
       <div className="flex items-center justify-center w-full h-full px-1/4"> 
-        <div className="px-6 sm:py-6 lg:px-8 relative z-10 font-customTwo">
+        <div className="px-6 sm:py-6 lg:px-8 relative z-10 ">
           <div className="mx-auto max-w-2xl text-center pt-20">
             {/* Option 3: White Text with Black Shadow for Title and White Text for Message: */}
-            <h2 className="text-6xl tracking-tight text-white sm:text-7xl shadow-black pt-2">
+            <h2 className="font-customThree text-6xl tracking-tight text-white sm:text-8xl shadow-black pt-2">
               Contact
             </h2>
-            <p className="mt-2 text-xl leading-8 text-white">
+            <p className="font-customFour mt-2 text-xl leading-8 text-white">
               Let's create something awesome together!
             </p>
 
           </div>
           <form action="#" method="POST" className="mx-auto mt-12 max-w-xl sm:mt-10">
-            <div className="grid grid-cols-1 gap-y-8">
+            <div className="font-customFour grid grid-cols-1 gap-y-8">
               <div>
                 {/* <label htmlFor="first-name" className="block text-lg font-semibold leading-6 text-gray-900">
                   First name
@@ -114,7 +114,7 @@ const Contact = () => {
                   name="first-name"
                   id="first-name"
                   placeholder='First Name'
-                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-1 mt-4 sm:text-lg"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 mt-4 sm:text-lg"
                 />
               </div>
               <div>
@@ -126,7 +126,7 @@ const Contact = () => {
                   name="last-name"
                   id="last-name"
                   placeholder='Last Name'
-                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-1 mt-4 sm:text-lg"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 mt-4 sm:text-lg"
                 />
               </div>
               <div>
@@ -139,7 +139,7 @@ const Contact = () => {
                   id="email"
                   autoComplete="email"
                   placeholder='Email'
-                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-1 mt-4 sm:text-lg"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 mt-4 sm:text-lg"
                 />
               </div>
               <div>
@@ -152,7 +152,7 @@ const Contact = () => {
                   id="phone-number"
                   autoComplete="tel"
                   placeholder='Phone Number'
-                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-1 mt-4 sm:text-lg"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 mt-4 sm:text-lg"
                 />
               </div>
               <div>
@@ -164,7 +164,7 @@ const Contact = () => {
                   id="message"
                   rows={4}
                   placeholder='Message'
-                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-1 mt-4 sm:text-lg"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 mt-4 sm:text-lg"
                   defaultValue={''}
                 />
               </div>
@@ -172,7 +172,7 @@ const Contact = () => {
             <div className="mt-10">
               <button
                 type="submit"
-                className="block w-full rounded-md text-white bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-rose-600 hover:text-white focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="block w-full font-customFour rounded-md text-white bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-rose-600 hover:text-white focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 Let's talk
               </button>

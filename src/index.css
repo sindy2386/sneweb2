@@ -4,6 +4,19 @@
 @tailwind utilities;
 
 /* index.css */
+@font-face {
+  font-family: "YourCustomFontFour";
+  src: url('/public/kiteOne.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YourCustomFontThree';
+  src: url('/public/feelingPassionate.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'YourCustomFontTwo';
@@ -278,4 +291,145 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as need
   background-color: rgba(0, 0, 0, 0.1);
   padding: 5px;
 }
+
+/* LayoutGridDemo.css */
+.jigsaw-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px; /* Adjust gap between images */
+}
+
+.jigsaw-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.jigsaw-item {
+  /* Example sizes, adjust as necessary */
+}
+
+/* row 1 */
+.jigsaw-item-1 { width: 31%; }
+.jigsaw-item-2 { width: 31%; }
+.jigsaw-item-3 { width: 31%; }
+/* row 2 */
+.jigsaw-item-4 { width: 25%; }
+.jigsaw-item-5 { width: 60%; }
+/* row 3 */
+.jigsaw-item-6 { width: 35%; }
+.jigsaw-item-7 { width: 35%; }
+.jigsaw-item-8 { width: 20%; }
+/* row 4 */
+.jigsaw-item-9 { width: 22%; }
+.jigsaw-item-10 { width: 40%; }
+/* Add more item-specific styles as needed */
+
+.modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.modal-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.modal-exit {
+  opacity: 1;
+}
+
+.modal-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.leading-tight {
+  line-height: 1.25; 
+}
+.leading-relaxed {
+  line-height: 1.5; 
+}
+.spacing {
+  letter-spacing: 0.5px; 
+}
+
+/* BTS.css */
+.tv-frame {
+  width: 40%;
+  /* padding-top: 30%;  */
+  margin: 20px 0;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  border: 5px solid #333;
+  background: #000;
+}
+
+.tv-frame:before {
+  content: '';
+  position: absolute;
+  top: -2.5%;
+  left: -1%;
+  right: -1%;
+  bottom: -2.5%;
+  border: 10px solid #b40505;
+  border-radius: 15px;
+}
+
+/* .video-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bts-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px; 
+} */
+
+.button-style-5 {
+  background-color: #FF4757;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px #D63031; /* Shadow to create depth */
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.button-style-5:active {
+  box-shadow: 0 2px #D63031; /* Adjust shadow to simulate press down */
+  transform: translateY(3px); /* Move down to simulate press */
+}
+
+.button-style-5:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+  border-color: #FFD700; /* Change border color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
 
